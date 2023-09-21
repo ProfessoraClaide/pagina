@@ -1,0 +1,49 @@
+.Topo{
+    background: aquamarine;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixas{
+    
+    display: flex;
+}
+
+
+.caixa1{
+    background: red;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.caixa2{
+    width: 50px;
+    height: 50px;
+    background: blueviolet;
+    transition: 1s;
+
+}
+.caixa2:hover{
+    background: black;
+    width: 150px;
+    height: 300px;
+    border-radius: 100%;
+
+}
+.caixa1:hover{
+    background: rgb(14, 201, 92);
+    width: 50px;
+    height: 50px;
+
+}
+.menu__item1:hover{
+    border: 2px solid rgb(12, 12, 12);
+
+}
+.menu__item2{
+    
+}
+.menu__item3{
+    
+}
